@@ -352,16 +352,17 @@ footer {
     
 }
 
-.MT{
+.MT {
 
-    display: flex;
+    display: block !important;
 
 }
 
 @media screen and (max-width:430px) {
 
     .conteiner {
-
+        display: flex;
+        
         padding: 0 30px;
 
     }
@@ -376,9 +377,8 @@ footer {
 
     .menu {
         display: block;
-        float: right;
-        margin: 40px 25px;
-        
+        justify-content: right;
+        padding:40px 50px;
     }
 
 
@@ -392,7 +392,7 @@ footer {
     }
 
     .conteiner .conteiner-nav ul {
-        padding: 10px;
+        padding:50px 10px;
         float: none;
     }
 
