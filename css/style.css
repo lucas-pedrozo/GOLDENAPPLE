@@ -452,6 +452,44 @@ footer {
     }
 }
 
+@media  screen and (max-width:940px) {
+    .conteiner{
+        padding: 0 80px;
+    }
+    .conteiner .conteiner-logo img {
+        width: 60px;
+    }
+
+    .conteiner .conteiner-nav ul li {
+
+        margin-top: 40px;
+        margin-right: 30px;
+
+        font-size: 15px;
+    }    
+    main {
+       width: 600px;
+    }
+
+    .banner img {
+        width: 500px;
+    }
+    .texto-1 {
+        margin: 0 60px;
+        margin-bottom: 50px;
+    }
+    .descricao {
+        width: 480px;
+    }
+    .img-personagem img {
+        width: 150px;
+    }
+    .mapa img {
+        width: 540px;
+    }
+}
+
+
 
 
 
