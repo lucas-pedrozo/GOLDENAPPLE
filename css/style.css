@@ -43,7 +43,7 @@ html {
     display: flex;
     width: 80px;
     margin: 20px;
-        transition: 500ms;
+    transition: 500ms;
 }
 
 .conteiner .conteiner-logo img:hover {
@@ -61,7 +61,7 @@ html {
 .conteiner .conteiner-nav ul li  {
 
     /*fonte do header */
-    font-size: 18px;
+    font-size: 17px;
 
     float: right;
     margin-right: 50px;
@@ -69,7 +69,7 @@ html {
     list-style: none;
 
     /* tempo da animação */
-    transition: 1s;
+    transition: 300ms;
 
 }
 
@@ -108,7 +108,7 @@ main {
     margin-top: 150px;
     margin-bottom: 40px;
 
-    transition: 500ms;
+    transition: 8ms;
 
 }
 
@@ -125,6 +125,8 @@ main {
     width: 800px;
     border-radius: 10px;
     margin: 40px 0;
+
+    transition: 500ms;
 }
 
 h1 {
@@ -395,6 +397,7 @@ footer {
     display: none;
     
 }
+/* ativador do menu */
 
 .MT {
 
@@ -415,6 +418,20 @@ footer {
 
 
 /* reponsivo descktop*/
+
+
+@media screen and (max-width:1300px){
+    .conteiner .conteiner-nav ul li {
+        font-size: 16px;
+        margin-right: 30px;
+    }
+    .conteiner .conteiner-logo img {
+        width: 70px;
+    }
+
+}
+
+
 @media  screen and (max-width: 1200px) {
 
     .conteiner {
@@ -426,7 +443,7 @@ footer {
 
     .conteiner .conteiner-nav ul li {
 
-        font-size: 18px;
+        font-size: 15px;
         margin-right: 40px;
 
 
@@ -490,7 +507,86 @@ footer {
 }
 
 
+@media screen and (max-width:760px) {
+    .conteiner {
+        padding: 0 20px;
 
+    }
+    .conteiner .conteiner-nav ul li {
+        font-size: 13px;
+        margin-right: 20px;
+    }
+    
+}
+
+@media screen and (max-width:650px) {
+    main{
+        width: 530px;
+    }
+    .banner img {
+        width: 450px;
+    }
+    h1 {
+        font-size: 20px;
+        width: 230px;
+    }
+    .texto-1 p {
+        font-size: 15px;
+
+    }
+    .h2-global {
+        font-size: 18px;
+        width: 200px;
+    }
+    .descricao {
+        width: 450px;
+        padding: 14px;
+    }
+    .img-personagem img {
+        width: 130px;
+    }
+    .mapa img {
+        width: 480px;
+    }
+}
+
+@media screen and (max-width:542px) {
+    .conteiner {
+        padding: 0 10px;
+    }
+    .conteiner .conteiner-logo img {
+        margin: 30px 20px;
+        
+        width: 40px;
+    }
+    .conteiner .conteiner-nav ul li {
+        font-size: 12px;
+        margin-right: 18px;
+    }
+    main {
+        width: 100%;
+    }
+    .banner img {
+        width: 390px;
+    }
+    .descricao {
+        width: 390px;
+    }
+    .descricao ul li {
+        font-size: 13px;
+    }
+    .img-personagem img {
+        /* tamanho */
+        width: 125px;
+        /* espaçamento */
+        margin: 10px 12px;
+        margin-bottom: 80px;
+    }
+    .mapa img {
+        width: 420px;
+    }
+    
+}
 
 
 
@@ -511,6 +607,7 @@ footer {
     .conteiner .conteiner-logo img {
 
         width: 50px;
+        margin: 20px;
 
     }
 
@@ -520,7 +617,7 @@ footer {
         
         display:block;
         
-        padding: 35px 40px;
+        padding: 35px 30px;
          
         /* tamanho do menu */
         font-size: 25px;
@@ -537,7 +634,7 @@ footer {
     .conteiner .conteiner-nav ul {
        
         float: none;
-        margin: 10px 10px;
+        margin: 10px 30px;
      
     }
 
@@ -649,9 +746,12 @@ footer {
 /* reponcivo mobile */
 /* iphone pro e normal */
 
-@media screen and (max-width:390px) {
+@media screen and (max-width:395px) {
     .menu {
         padding: 30px 20px;
+    }
+    .conteiner .conteiner-nav ul {
+        margin: 10px 30px;
     }
     .conteiner .conteiner-nav ul li {
 
@@ -699,6 +799,9 @@ footer {
 
 @media screen and (max-width:375px) {
     /* menu reponsivo */
+    .conteiner .conteiner-nav ul {
+        margin: 10px 20px;
+    }
     .conteiner .conteiner-nav ul li {
         margin: 30px 20px 0 ;
     }
@@ -749,6 +852,7 @@ footer {
 
   
     .conteiner .conteiner-logo img {
+        margin: 30px 20px;
         width: 40px;
     }
 
@@ -782,6 +886,10 @@ footer {
     
 
     }
+    .conteiner .conteiner-nav ul {
+        margin: 10px 10px;
+    }
+
     .conteiner .conteiner-nav ul li {
       font-size: 14px;
       padding: 10px 0 ;
