@@ -26,6 +26,9 @@ body {
     position: fixed;
     top: 0;
     box-sizing: border-box;
+    /* autura do menu */
+
+    z-index: 99999;
 
 }
 
@@ -87,6 +90,22 @@ body {
 
 /* fim do cabeçario */
 
+/* center banner animado */
+
+.banner {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.banner img {
+    width: 800px;
+    border-radius: 10px;
+    margin: 40px 0;
+}
+
+
 
 
 
@@ -103,6 +122,186 @@ body {
     display: block !important;
 
 }
+
+
+
+/* constumização do site */
+
+main {
+
+    /* fomrato do centro */
+    background-color:  rgb(19, 19, 19);
+    width: 1000px;
+    border-radius: 15px;
+
+    /* margin do site */ 
+    margin: auto;
+    margin-top: 150px;
+    margin-bottom: 40px;
+    padding: 10px;
+
+    box-shadow: 0 0 20px;
+
+}
+
+.construct-flex {
+
+    display: flex;
+
+}
+
+.construct img {
+
+    width: 250px;
+     /* margins */
+     padding: 20px;
+
+     /* tempo da animação */
+     transition: 500ms;
+}
+
+.construct img:hover {
+
+    transform: scale(1.04);
+    
+}
+
+
+
+
+.texto1 p {
+
+    /*tamanho text */   
+    font-size: 18px;
+
+    /* formtação do texto */
+    color: aqua;
+    margin-top: 80px;
+    padding: 0 20px;
+    
+    /* fundo do texto */
+    background-color: rgba(127, 255, 249, 0.068);
+    padding: 15px;
+    border-radius: 10px;
+
+}
+
+/* imagens do autor */
+.img-autor img {
+
+    width: 250px;
+    padding: 20px;
+
+    /* borda da imagens */
+    border-radius: 50px;
+
+    /* tempo da animação */
+    transition: 500ms;
+}
+
+.img-autor img:hover {
+
+    transform: scale(1.04);
+    
+}
+
+.autor-flex {
+    display: flex;
+}
+
+.text-autor p {
+
+    font-size: 18px;
+    
+    color: aqua;
+
+    /* margin do text autor */
+    margin-top: 150px;
+
+    background-color: rgba(127, 255, 249, 0.068);
+    padding: 15px;
+    border-radius: 10px;
+
+}
+
+
+/* footer */
+
+footer {
+
+    background-color: rgb(19, 19, 19);
+    width: 100%;
+    padding: 50px;
+    box-shadow: 0 0 10px rgb(49, 49, 49);
+
+    box-sizing: border-box;
+}
+
+/* nome redes sociais */
+
+.noticias h4 {
+    display: flex;
+    justify-content:center;
+    margin-bottom: 30px;
+
+    /* ajustes */
+    font-size: 20px;
+    color: blueviolet;
+
+}
+
+/* links */
+
+.contatos {
+
+    display: flex;
+    justify-content: center;
+
+    bottom: 0;
+    margin: 0;
+
+}
+
+.contatos a {
+
+    /* ajuste para o responcivo */
+    display: flex;
+     
+    /* espaçamento entre os links */
+    margin: 15px;
+    
+    /* estulo dos links */
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    border-radius: 5px;
+
+
+    /* tempo da animação */
+    transition: 500ms;
+
+
+}
+
+.contatos a:hover {
+    color:  black;
+    background-color: yellow ;
+    padding: 5px;
+    border-radius: 10px;
+    transform: scale(1.05);
+
+}
+
+/* barra de rolagem*/   
+::-webkit-scrollbar {
+    background-color: rgb(54, 57, 58);
+   }
+   ::-webkit-scrollbar-thumb {
+       background-color: rgb(116, 0, 170);
+   }
+
+
+
 
 /* reponsivo para dispositovos moveis */ 
 
@@ -125,10 +324,9 @@ body {
 
     .menu {
         
-        display:block;
-        
-        padding: 40px 50px;
-         
+        display: block;
+            
+        padding: 30px 30px;
         /* tamanho do menu */
         font-size: 25px;
 
@@ -144,14 +342,60 @@ body {
     .conteiner .conteiner-nav ul {
        
         float: none;
-        margin: 40px 10px;
+        
+        
      
     }
 
     .conteiner .conteiner-nav ul li {  
 
         font-size: 16px;
+         
 
          padding-bottom: 10px;
+
     }
+    .conteiner .conteiner-nav ul li a strong {
+        
+        padding: 10px;
+    } 
+     
+
+
+    main {
+       width: 100%;
+       margin-top: 105px;
+       box-sizing: border-box;
+
+    }
+
+    .banner img {
+       
+        width: 380px;
+        
+
+    }
+    .construct-flex {
+        display: block;
+    }
+    .construct {
+        display: flex;
+        justify-content: center;
+    }
+    .texto1 p {
+        margin: 30px 0;
+    }
+
+    .autor-flex {
+        display: block;
+    }
+    .img-autor {
+        display: flex;
+        justify-content: center;
+    }
+    .text-autor p {
+        margin-top: 30px;
+    }   
 }
+
+ 

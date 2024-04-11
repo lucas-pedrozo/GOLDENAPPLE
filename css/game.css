@@ -1,0 +1,239 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+
+    /* fonte do site */ 
+    font-family: Arial, Helvetica, sans-serif   ;
+    background-color: rgb(7, 28, 46);
+}
+
+/* cabeçario */
+
+.conteiner {
+
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(19, 19, 19);  
+    width: 100%;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0 0 20px rgb(49, 49, 49);
+    padding: 0 150px;
+    position: fixed;
+    top: 0;
+    box-sizing: border-box;
+    /* autura do menu */
+
+    z-index: 99999;
+
+}
+
+.conteiner .conteiner-logo img {
+
+    display: flex;
+    width: 80px;
+    margin: 20px;
+    transition: 500ms;
+}
+
+.conteiner .conteiner-logo img:hover {
+
+    transform: scale(1.2)
+}
+
+.conteiner .conteiner-nav {
+    
+    display: flex;
+
+}
+
+
+.conteiner .conteiner-nav ul li  {
+
+    /*fonte do header */
+    font-size: 18px;
+
+    float: right;
+    margin-right: 50px;
+    margin-top: 50px;
+    list-style: none;
+
+    /* tempo da animação */
+    transition: 1s;
+
+}
+
+.conteiner .conteiner-nav ul li a {
+
+    text-decoration: none;
+    color: blueviolet ;
+
+    /* tempo da animações */
+    border-radius: 5px;
+    transition: 300ms;
+
+}
+
+.conteiner .conteiner-nav ul li a:hover {
+
+    background-color: rgb(185, 185, 20);
+    color: rgb(15, 15, 15);
+    padding: 5px;
+    border-radius: 10px;
+    transform: scale(22px);
+
+}
+
+
+
+/*itens do site */
+main { 
+
+    background-color: rgb(19, 19, 19);
+    width: 1000px;
+    border-radius: 15px;
+
+    margin: auto;
+
+    margin-top: 190px;
+    margin-bottom: 80px;
+    padding-bottom: 40px;
+
+
+
+}
+    /* centralização do banner do site */
+.banner {
+
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+/* ajuste do abanner */
+.banner img {
+
+    width: 900px;
+    margin: 20px;
+    margin-bottom: 40px;
+
+    border-radius: 10px;
+
+}
+.game {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.game iframe {
+   
+    width: 800px;
+    height: 450px;
+    
+}
+
+
+/* footer */
+
+footer {
+
+    background-color: rgb(19, 19, 19);
+    width: 100%;
+    padding: 50px;
+    box-shadow: 0 0 10px rgb(49, 49, 49);
+
+    box-sizing: border-box;
+}
+
+/* nome redes sociais */
+
+.noticias h4 {
+    display: flex;
+    justify-content:center;
+    margin-bottom: 30px;
+
+    /* ajustes */
+    font-size: 20px;
+    color: blueviolet;
+
+}
+
+/* links */
+
+.contatos {
+
+    display: flex;
+    justify-content: center;
+
+    bottom: 0;
+    margin: 0;
+
+}
+
+.contatos a {
+
+    /* ajuste para o responcivo */
+    display: flex;
+     
+    /* espaçamento entre os links */
+    margin: 15px;
+    
+    /* estulo dos links */
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    border-radius: 5px;
+
+
+    /* tempo da animação */
+    transition: 500ms;
+
+
+}
+
+.contatos a:hover {
+    color:  black;
+    background-color: yellow ;
+    padding: 5px;
+    border-radius: 10px;
+    transform: scale(1.05);
+
+}
+
+
+
+
+
+
+
+
+
+
+.menu {
+
+    display: none;
+    
+}
+
+.MT {
+
+    display: block !important;
+
+}   
+
+/* fim do cabeçario */
+
+/* barra de rolagem*/   
+::-webkit-scrollbar {
+    background-color: rgb(54, 57, 58);
+   }
+   ::-webkit-scrollbar-thumb {
+       background-color: rgb(116, 0, 170);
+   }
+
