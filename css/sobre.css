@@ -302,8 +302,52 @@ footer {
 
 
 
-@media screen and (max-width:750px) {
+@media screen and (max-width:1200px) {
+    .conteiner {
+        padding: 0 100px;
+    }
+    .conteiner .conteiner-nav ul li {
+        font-size: 18px;
+    }
+    main {
+        width: 800px;
+    }
+    .banner img {
+        width: 680px;
+    }
+    .texto1 p {
+       margin-top: 40px;
+    }
+
+    .text-autor p {
+        margin-top: 130px;
+    }
+
+
 }
+
+@media screen and (max-width:900px) {
+    main {
+        width: 600px;
+    }
+    .banner img {
+        width: 525px;
+    }
+    .texto1 p {
+        font-size: 16px;
+       margin-top: 20px;
+    }
+
+    .text-autor p {
+        font-size: 16px;
+        margin-top: 130px;
+    }
+
+
+}
+
+
+
 
 
 

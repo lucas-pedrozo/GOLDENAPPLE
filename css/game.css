@@ -94,7 +94,7 @@ body {
 main { 
 
     background-color: rgb(19, 19, 19);
-    width: 1000px;
+    width: 80%  ;
     border-radius: 15px;
 
     margin: auto;
@@ -129,12 +129,36 @@ main {
     display: flex;
     justify-content: center;
     padding: 20px;
+    margin-bottom: 50px ;
 }
 
 .game iframe {
    
     width: 800px;
     height: 450px;
+    
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+}
+.btn a {
+    /* estilo do botão */
+    text-decoration: none;
+    color: white;
+    font-size: 18px ;
+    /* fundo */
+    background: rgb(131,0,191);
+    background: radial-gradient(circle, rgba(131,0,191,1) 0%, rgba(0,212,255,1) 100%);
+    padding: 15px;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: 500ms;
+
+}
+.btn a:hover{
+    transform: scale(1.1);
     
 }
 

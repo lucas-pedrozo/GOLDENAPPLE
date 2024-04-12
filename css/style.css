@@ -30,7 +30,7 @@ html {
     width: 100%;
     border-radius: 0 0 10px 10px;
     box-shadow: 0 0 20px rgba(195, 0, 255, 0.055);
-    padding: 0 150px;
+    padding: 0 100px;
     position: fixed;
     top: 0;
     box-sizing: border-box;
@@ -41,7 +41,7 @@ html {
 .conteiner .conteiner-logo img {
 
     display: flex;
-    width: 80px;
+    width: 60px;
     margin: 20px;
     transition: 500ms;
 }
@@ -61,7 +61,7 @@ html {
 .conteiner .conteiner-nav ul li  {
 
     /*fonte do header */
-    font-size: 17px;
+    font-size: 16px;
 
     float: right;
     margin-right: 50px;
@@ -555,13 +555,14 @@ footer {
         padding: 0 10px;
     }
     .conteiner .conteiner-logo img {
-        margin: 30px 20px;
+        margin: 30px 14px;
         
-        width: 40px;
+        width: 35px;
     }
     .conteiner .conteiner-nav ul li {
-        font-size: 12px;
+        font-size: 11px;
         margin-right: 18px;
+        margin-top: 50px;
     }
     main {
         width: 100%;
