@@ -346,6 +346,64 @@ footer {
 
 }
 
+@media screen and (max-width: 670px){
+        .conteiner {
+            padding: 0 50px;
+        }
+    
+    
+    main {
+        width: 100%;
+    }
+    
+    .banner img {
+       
+        width: 560px;
+        
+
+    }
+    .construct-flex {
+        display: block;
+    }
+    .construct {
+        display: flex;
+        justify-content: center;
+    }
+    .construct img {
+        width:300px ;
+    }
+    .texto1 p {
+        margin: auto    ;
+        margin: 30px 30px;
+        text-align: justify;
+    }
+
+    .autor-flex {
+        display: block;
+    }
+    .img-autor {
+        display: flex;
+        justify-content: center;
+    }
+    .img-autor img {
+        width: 302px;
+    }
+    .text-autor p {
+        margin-top: 30px;
+    }   
+}
+@media  screen and (max-width:600px) {
+    .conteiner {
+        padding: 0 10px;
+    }
+    .conteiner .conteiner-nav ul li {
+        font-size: 15px;
+    }
+    .banner img {
+        width: 90%;
+    }
+    
+}
 
 
 
