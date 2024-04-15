@@ -21,7 +21,7 @@ body {
     background-color: rgb(19, 19, 19);  
     width: 100%;
     border-radius: 0 0 10px 10px;
-    box-shadow: 0 0 20px rgb(49, 49, 49);
+    box-shadow: 0 0 25px rgb(0, 90, 90);
     padding: 0 150px;
     position: fixed;
     top: 0;
@@ -35,7 +35,7 @@ body {
 .conteiner .conteiner-logo img {
 
     display: flex;
-    width: 80px;
+    width: 60px;
     margin: 20px;
     transition: 500ms;
 }
@@ -55,11 +55,11 @@ body {
 .conteiner .conteiner-nav ul li  {
 
     /*fonte do header */
-    font-size: 18px;
+    font-size: 16px;
 
     float: right;
     margin-right: 50px;
-    margin-top: 50px;
+    margin-top: 44px;
     list-style: none;
 
     /* tempo da animação */
@@ -87,6 +87,7 @@ body {
     transform: scale(22px);
 
 }
+
 
 /* fim do cabeçario */
 
@@ -183,6 +184,7 @@ main {
     background-color: rgba(127, 255, 249, 0.068);
     padding: 15px;
     border-radius: 10px;
+    box-sizing: border-box;
 
 }
 
@@ -213,7 +215,7 @@ main {
 
     font-size: 18px;
     
-    color: aqua;
+    color: rgb(0, 255, 255);
 
     /* margin do text autor */
     margin-top: 150px;
@@ -221,6 +223,7 @@ main {
     background-color: rgba(127, 255, 249, 0.068);
     padding: 15px;
     border-radius: 10px;
+    box-sizing: border-box;
 
 }
 
@@ -307,7 +310,7 @@ footer {
         padding: 0 100px;
     }
     .conteiner .conteiner-nav ul li {
-        font-size: 18px;
+        font-size: 16px;
     }
     main {
         width: 800px;
@@ -354,6 +357,7 @@ footer {
     
     main {
         width: 100%;
+        box-sizing: border-box;
     }
     
     .banner img {
@@ -389,7 +393,9 @@ footer {
         width: 302px;
     }
     .text-autor p {
-        margin-top: 30px;
+        margin: auto    ;
+        margin: 30px 30px;
+        text-align: justify;
     }   
 }
 @media  screen and (max-width:600px) {

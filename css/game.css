@@ -21,7 +21,7 @@ body {
     background-color: rgb(19, 19, 19);  
     width: 100%;
     border-radius: 0 0 10px 10px;
-    box-shadow: 0 0 20px rgb(49, 49, 49);
+    box-shadow: 0 0 25px rgb(0, 44, 82);
     padding: 0 150px;
     position: fixed;
     top: 0;
@@ -35,7 +35,7 @@ body {
 .conteiner .conteiner-logo img {
 
     display: flex;
-    width: 80px;
+    width: 60px;
     margin: 20px;
     transition: 500ms;
 }
@@ -55,11 +55,11 @@ body {
 .conteiner .conteiner-nav ul li  {
 
     /*fonte do header */
-    font-size: 18px;
+    font-size: 16px;
 
     float: right;
     margin-right: 50px;
-    margin-top: 50px;
+    margin-top: 44px;
     list-style: none;
 
     /* tempo da animação */
