@@ -209,20 +209,16 @@ h1 {
 
 }
 h3 {
-     /* ajuste do h2-global */
-
+     
      background-color: rgb(22, 22, 22);
      width: 180px;
      padding: 10px;
      border-radius: 10px;
      color:rgb(226, 195, 17);
  
-     /* alinhamento do texto */
- 
      text-align: center;
      margin: auto;
  
-     /*  margem de baixo */
      margin-bottom: 40px;
 }
 
