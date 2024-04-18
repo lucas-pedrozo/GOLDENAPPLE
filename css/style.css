@@ -158,7 +158,7 @@ h1 {
     color: rgb(207, 207, 23);
 }
 
-.h2-global {
+.h2-global  {
     
     /* ajuste do h2-global */
 
@@ -174,7 +174,7 @@ h1 {
     margin: auto;
 
     /*  margem de baixo */
-    margin-bottom: 80px;
+    margin-bottom: 60px;
 }
 
 .descricao {
