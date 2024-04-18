@@ -180,7 +180,7 @@ footer {
 .noticias h4 {
     display: flex;
     justify-content:center;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 
     /* ajustes */
     font-size: 20px;
@@ -402,6 +402,15 @@ footer {
        
         width: 380px;
 
+    }   
+    .noticias h4 {
+        margin-top: 10px;
+        margin-bottom: 30px;
+    
+        /* ajustes */
+        font-size: 20px;
+        color: blueviolet;
+    
     }
 }
 

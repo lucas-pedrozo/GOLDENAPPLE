@@ -234,7 +234,7 @@ footer {
 
     background-color: rgb(19, 19, 19);
     width: 100%;
-    padding: 50px;
+    padding: 20px;
     box-shadow: 0 0 10px rgb(49, 49, 49);
 
     box-sizing: border-box;
@@ -512,6 +512,17 @@ footer {
     .text-autor p {
         margin-top: 30px;
     }   
+}
+/* dooter mobile */
+
+.noticias h4 {
+    margin-top: 10px;
+    margin-bottom: 30px;
+
+    /* ajustes */
+    font-size: 20px;
+    color: blueviolet;
+
 }
 
 @media screen and (max-width:415px) {
