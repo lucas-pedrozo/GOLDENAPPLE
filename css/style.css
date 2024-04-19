@@ -122,7 +122,16 @@ main {
 }
 
 .banner img {
+    display: none;
     width: 800px;
+    border-radius: 10px;
+    margin: 40px 0;
+
+    transition: 500ms;
+}
+.banner video {
+    display:;
+    width:85%;
     border-radius: 10px;
     margin: 40px 0;
 
