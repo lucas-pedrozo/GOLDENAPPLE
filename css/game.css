@@ -23,8 +23,6 @@ body {
     border-radius: 0 0 10px 10px;
     box-shadow: 0 0 25px rgb(0, 44, 82);
     padding: 0 150px;
-    position: fixed;
-    top: 0;
     box-sizing: border-box;
     /* autura do menu */
 
@@ -94,13 +92,13 @@ body {
 main { 
 
     background-color: rgb(19, 19, 19);
-    width: 80%  ;
+    width: 80%;
     border-radius: 15px;
 
     margin: auto;
 
-    margin-top: 190px;
-    margin-bottom: 80px;
+    margin-top: 30px;
+    margin-bottom: 50px;
     padding-bottom: 40px;
 
 
@@ -330,7 +328,7 @@ footer {
 
 
 
-
+/* reponsovo de celulares */ 
 
 /* reponsivo para dispositovos moveis */ 
 
@@ -393,7 +391,7 @@ footer {
 
     main {
        width: 100%;
-       margin-top: 105px;
+       margin-top: 30px;
        box-sizing: border-box;
 
     }

@@ -23,8 +23,6 @@ body {
     border-radius: 0 0 10px 10px;
     box-shadow: 0 0 25px rgb(0, 90, 90);
     padding: 0 150px;
-    position: fixed;
-    top: 0;
     box-sizing: border-box;
     /* autura do menu */
 
@@ -137,7 +135,7 @@ main {
 
     /* margin do site */ 
     margin: auto;
-    margin-top: 150px;
+    margin-top: 20px;
     margin-bottom: 40px;
     padding: 10px;
 
@@ -480,7 +478,7 @@ footer {
 
     main {
        width: 100%;
-       margin-top: 105px;
+       margin-top: 30px;
        box-sizing: border-box;
 
     }
