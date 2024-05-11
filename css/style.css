@@ -627,10 +627,14 @@ footer {
 @media screen and (max-width: 430px) {
 
     .conteiner {
-        display: flex;
+        display: block;
         
         padding: 0 30px;
 
+    }
+    .conteiner .conteiner-logo {
+        display: flex;
+        justify-content: space-between;
     }
 
     .conteiner .conteiner-logo img {
@@ -661,6 +665,10 @@ footer {
     }
 
     .conteiner .conteiner-nav ul {
+        display: flex;
+        justify-content: center;
+        
+        flex-direction: column;
        
         float: none;
         margin: 10px 30px;
@@ -668,8 +676,9 @@ footer {
     }
 
     .conteiner .conteiner-nav ul li {  
+        text-align: right;
 
-        margin: 30px 20px 0 ;
+        margin: 10px 0 ;
         
         font-size: 16px;
 
@@ -778,6 +787,8 @@ footer {
 
         width: 365px;
     }
+  
+
 
     .descricao {
         width: 345px;
@@ -801,18 +812,13 @@ footer {
     .menu {
         padding: 30px 20px;
     }
-    .conteiner .conteiner-nav ul {
-        margin: 10px 30px;
-    }
-    .conteiner .conteiner-nav ul li {
-
-        margin: 30px 20px 0 ;
-    }
-
     .banner img {
 
         width: 350px;
 
+    }
+    .conteiner .conteiner-nav ul {
+        margin: 10px 20px
     }
 
     .descricao {
@@ -851,7 +857,7 @@ footer {
 @media screen and (max-width:375px) {
     /* menu reponsivo */
     .conteiner .conteiner-nav ul {
-        margin: 10px 20px;
+        margin: 10px 0;
     }
     .conteiner .conteiner-nav ul li {
         margin: 30px 20px 0 ;
@@ -942,7 +948,7 @@ footer {
 
     }
     .conteiner .conteiner-nav ul {
-        margin: 10px 10px;
+        margin: 10px 0;
     }
 
     .conteiner .conteiner-nav ul li {
