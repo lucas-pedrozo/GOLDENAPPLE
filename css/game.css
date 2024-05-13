@@ -335,15 +335,20 @@ footer {
 @media screen and (max-width:440px) {
 
     .conteiner {
-        display: flex;
+        display: block;
         
         padding: 0 30px;
 
+    }
+    .conteiner .conteiner-logo {
+        display: flex;
+        justify-content: space-between;
     }
 
     .conteiner .conteiner-logo img {
 
         width: 50px;
+        margin: 20px;
 
     }
 
@@ -351,9 +356,10 @@ footer {
 
     .menu {
         
-        display: block;
-            
-        padding: 30px 30px;
+        display:block;
+        
+        padding: 35px 30px;
+         
         /* tamanho do menu */
         font-size: 25px;
 
@@ -367,21 +373,28 @@ footer {
     }
 
     .conteiner .conteiner-nav ul {
+        display: flex;
+        justify-content: center;
+        
+        flex-direction: column-reverse ;
        
         float: none;
-        
-        
+        margin: 10px 20px;
      
     }
 
     .conteiner .conteiner-nav ul li {  
+        text-align: right;
 
+        margin: 10px 0 ;
+        
         font-size: 16px;
-         
 
-         padding-bottom: 10px;
+        padding-bottom: 10px;
 
     }
+
+
     .conteiner .conteiner-nav ul li a strong {
         
         padding: 10px;
@@ -428,9 +441,11 @@ footer {
         margin: 0 ;
         padding: 0;
     }
+    .conteiner .conteiner-nav ul {
+        margin: 10px 0;
+    }
     .conteiner .conteiner-nav ul li {
         margin-right: 20px;
-        margin-top: 40px;
     }
 
     .banner img {
@@ -448,10 +463,9 @@ footer {
 }
 
 @media screen and (max-width:320px) {
+ 
 
-    .conteiner .conteiner-nav ul li {
-        margin-right: 30px;
-    }
+
     .menu {
         margin-left: 30px;
     }

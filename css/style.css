@@ -667,7 +667,7 @@ footer {
         display: flex;
         justify-content: center;
         
-        flex-direction: column;
+        flex-direction: column-reverse ;
        
         float: none;
         margin: 10px 30px;
@@ -946,16 +946,7 @@ footer {
     
 
     }
-    .conteiner .conteiner-nav ul {
-        margin: 10px 0;
-    }
 
-    .conteiner .conteiner-nav ul li {
-      font-size: 14px;
-      padding: 10px 0 ;
-      margin: 14px;
-      
-    }
 
 }
 

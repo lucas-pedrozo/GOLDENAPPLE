@@ -421,12 +421,15 @@ footer {
 /* reponsivo para dispositovos moveis */ 
 
 @media screen and (max-width:440px) {
-
     .conteiner {
-        display: flex;
+        display: block;
         
         padding: 0 30px;
 
+    }
+    .conteiner .conteiner-logo {
+        display: flex;
+        justify-content: space-between;
     }
 
     .conteiner .conteiner-logo img {
@@ -455,20 +458,27 @@ footer {
     }
 
     .conteiner .conteiner-nav ul {
+        display: flex;
+        justify-content: center;
+        
+        flex-direction: column-reverse ;
        
         float: none;
-        
-        
+        margin: 10px 20px;
      
     }
 
     .conteiner .conteiner-nav ul li {  
+        text-align: right;
 
+        margin: 10px 0 ;
+        
         font-size: 16px;
 
-         padding-bottom: 10px;
+        padding-bottom: 10px;
 
     }
+
     .conteiner .conteiner-nav ul li a strong {
         
         padding: 10px;
@@ -536,12 +546,17 @@ footer {
 
     }
     .conteiner .conteiner-nav {
+    
         margin: 0 ;
         padding: 0;
     }
+    .conteiner .conteiner-nav ul {
+        margin: 10px 0px;
+     
+    }
     .conteiner .conteiner-nav ul li {
         margin-right: 20px;
-        margin-top: 40px;
+
     }
 
     .banner img {
